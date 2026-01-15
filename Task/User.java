@@ -1,21 +1,21 @@
-package Task;
-
 public class User {
-    private String username;
-    private Task[] taskArray=new Task[10];
+    private String userName;
+    private  Task[] taskArray=new Task[10];
 
-    public User(String username)
+    public User (String userName)
     {
-        this.username=username;
+        this.userName=userName;
     }
 
-    public String getUsername() {
-        return username;
+
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
+
 
     public Task[] getTaskArray() {
         return taskArray;
