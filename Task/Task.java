@@ -1,18 +1,16 @@
-package Task;
-
 public class Task {
-    private String taskdescription;
+    private String taskDescription;
 
-    public Task(String taskdescription)
+    public Task (String taskDescription)
     {
-        this.taskdescription=taskdescription;
+        this.taskDescription=taskDescription;
     }
 
-    public String getTaskdescription() {
-        return taskdescription;
+    public String getTaskDescription() {
+        return taskDescription;
     }
 
-    public void setTaskdescription(String taskdescription) {
-        this.taskdescription = taskdescription;
+    public void setTaskDescription(String taskDescription) {
+        this.taskDescription = taskDescription;
     }
 }
